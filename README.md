@@ -44,7 +44,7 @@ cd aditya
 git clone https://github.com/jacob-bd/kubeturbo-sample-yamls.git
 ```
 ```
-trivy fs --security-cheks vuln, config kubeturbo-sample-yamls
+trivy fs --scanners vuln,config kubeturbo-sample-yamls
 ```
 * Test 3
 ```
